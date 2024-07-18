@@ -47,7 +47,7 @@ async function calculate() {
 
 
     try {
-        var response = await fetch('http://localhost:3000/calculate', {
+        var response = await fetch('/calculate', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
